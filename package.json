@@ -1,0 +1,22 @@
+{
+  "name": "anti_scam_bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "anti-scam-bot",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Shevchenko",
+  "license": "ISC",
+  "description": "Bot for Telegram to fight scams",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "gitignore": "^0.7.0",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
