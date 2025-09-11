@@ -40,6 +40,9 @@ const bannedWords = [
   "все легально",
   "всё легально",
   "в личные сообщения",
+  // update от 11.09.25
+  "+ в лс",
+  '" в лс',
 ];
 
 export default bannedWords;
